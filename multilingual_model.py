@@ -89,6 +89,5 @@ if st.button("🚀 Start Querying"):
         audio_file = text_to_speech(response)
         st.audio(audio_file, format="audio/mp3")
 
-# Ensure Streamlit runs properly on deployment
 if __name__ == "__main__":
     st.write("App is running...")
